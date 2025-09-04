@@ -1,5 +1,5 @@
-Manager - Mason
-Presenter - Samuel
+Manager - Mason <br>
+Presenter - Samuel <br>
 Recorder - Mathew
 Reflector - Marcus
 
