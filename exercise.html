@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise Website</title>
+    <script>
+        function colorGuess() {
+            let color = prompt("What is your favorite color?:");
+            if(color == "blue"){
+                document.getElementById("Response").textContent = "Nice choice!";
+                document.getElementById("Response").style.color = "blue";
+            }
+            else{
+                document.getElementById("Response").textContent = "Not my favorite!";
+                document.getElementById("Response").style.color = "red";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 id="Response"></h1>
+    <button onclick="colorGuess()">Click to start!</button>
+</body>
+</html>
