@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise Website</title>
+    <script>
+        function numGuess() {
+            let counter = 3
+            let num = 7
+            while (counter > 0) {
+                let guess = prompt(`Please guess a number (you have ${counter} guesses left):`)
+                if (parseInt(guess) === num) {
+                    prompt("congrats you guessed the correct number!")
+                    counter = 0
+                }
+                else {
+                    counter--
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<h1 id="Response"></h1>
+<button onclick="numGuess()">Click to start!</button>
+</body>
+</html>
